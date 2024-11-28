@@ -36,7 +36,7 @@ const Profile = () => {
         }
     };
 
-    const fetchMyArtworks = async () => {
+    const  fetchMyArtworks = async () => {
         try {
             const { signer } = await connectWallet();
             const contract = getArtMarketplaceDAppTokenContract(signer);
